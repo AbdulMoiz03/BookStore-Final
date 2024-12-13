@@ -2,10 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* globals.css */
+
 :root {
+  --background: #f9f9f9;
+  --text-color: #d1cdcd;
+  --button-bg: #0070f3;
+  --button-hover-bg: #005bb5;
+}
+
+.dark {
+  --background: #1e1e1e;
+  --text-color: #e0e0e0;
+  --button-bg: #1f8eff;
+  --button-hover-bg: #1377ce;
+}
+
+/* Apply background and text color to the body */
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {

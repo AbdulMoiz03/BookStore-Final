@@ -1,0 +1,44 @@
+/* NotFoundPage.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f4f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.heading {
+    font-size: 6em;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin: 0;
+    padding: 0;
+}
+
+.subHeading {
+    font-size: 1.5em;
+    color: #555;
+    margin: 20px 0;
+}
+
+.homeButton {
+    padding: 15px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.homeButton:hover {
+    background-color: #005bb5;
+}

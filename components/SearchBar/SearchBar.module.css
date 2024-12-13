@@ -1,0 +1,64 @@
+.searchBarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.searchBar {
+    display: flex;
+    gap: 10px;
+}
+
+.searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.searchButton,
+.historyButton {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.historyButton {
+    background-color: #28a745;
+}
+
+.historyCard {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.historyCard h3 {
+    margin-bottom: 10px;
+}
+
+.historyCard ul {
+    list-style: none;
+    padding: 0;
+}
+
+.historyCard li {
+    padding: 5px 0;
+}
+
+.historyCard button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
